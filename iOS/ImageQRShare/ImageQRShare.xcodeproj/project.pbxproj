@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1A1EF82865E6380074E146 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A1EF72865E6380074E146 /* CameraView.swift */; };
+		5F1A1EFA286991B50074E146 /* CaptureVideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A1EF9286991B50074E146 /* CaptureVideoPreview.swift */; };
+		5F1A1EFC286991F10074E146 /* CameraViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A1EFB286991F10074E146 /* CameraViewViewModel.swift */; };
+		5F1A1EFE2869B34E0074E146 /* UIDeviceOrientation+AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A1EFD2869B34E0074E146 /* UIDeviceOrientation+AVCaptureVideoOrientation.swift */; };
+		5FA506362865DB680098864F /* ImageQRShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA506352865DB680098864F /* ImageQRShareApp.swift */; };
+		5FA5063A2865DB6A0098864F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA506392865DB6A0098864F /* Assets.xcassets */; };
+		5FA5063D2865DB6A0098864F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA5063C2865DB6A0098864F /* Preview Assets.xcassets */; };
+		5FA506442865DC330098864F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA506432865DC330098864F /* APIClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F1A1EF72865E6380074E146 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5F1A1EF9286991B50074E146 /* CaptureVideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureVideoPreview.swift; sourceTree = "<group>"; };
+		5F1A1EFB286991F10074E146 /* CameraViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewViewModel.swift; sourceTree = "<group>"; };
+		5F1A1EFD2869B34E0074E146 /* UIDeviceOrientation+AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDeviceOrientation+AVCaptureVideoOrientation.swift"; sourceTree = "<group>"; };
+		5FA506322865DB680098864F /* ImageQRShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageQRShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA506352865DB680098864F /* ImageQRShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageQRShareApp.swift; sourceTree = "<group>"; };
+		5FA506392865DB6A0098864F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA5063C2865DB6A0098864F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FA506432865DC330098864F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA5062F2865DB670098864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1A1EFF2869B5E70074E146 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5FA506432865DC330098864F /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5F1A1F002869B5F00074E146 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A1EFB286991F10074E146 /* CameraViewViewModel.swift */,
+				5F1A1EF72865E6380074E146 /* CameraView.swift */,
+				5F1A1EF9286991B50074E146 /* CaptureVideoPreview.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5FA506292865DB670098864F = {
+			isa = PBXGroup;
+			children = (
+				5FA506342865DB680098864F /* ImageQRShare */,
+				5FA506332865DB680098864F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA506332865DB680098864F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA506322865DB680098864F /* ImageQRShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA506342865DB680098864F /* ImageQRShare */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A1F002869B5F00074E146 /* Camera */,
+				5F1A1EFF2869B5E70074E146 /* API */,
+				5FA506352865DB680098864F /* ImageQRShareApp.swift */,
+				5F1A1EFD2869B34E0074E146 /* UIDeviceOrientation+AVCaptureVideoOrientation.swift */,
+				5FA506392865DB6A0098864F /* Assets.xcassets */,
+				5FA5063B2865DB6A0098864F /* Preview Content */,
+			);
+			path = ImageQRShare;
+			sourceTree = "<group>";
+		};
+		5FA5063B2865DB6A0098864F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FA5063C2865DB6A0098864F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA506312865DB670098864F /* ImageQRShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA506402865DB6A0098864F /* Build configuration list for PBXNativeTarget "ImageQRShare" */;
+			buildPhases = (
+				5FA5062E2865DB670098864F /* Sources */,
+				5FA5062F2865DB670098864F /* Frameworks */,
+				5FA506302865DB670098864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageQRShare;
+			productName = ImageQRShare;
+			productReference = 5FA506322865DB680098864F /* ImageQRShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA5062A2865DB670098864F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5FA506312865DB670098864F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FA5062D2865DB670098864F /* Build configuration list for PBXProject "ImageQRShare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA506292865DB670098864F;
+			productRefGroup = 5FA506332865DB680098864F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA506312865DB670098864F /* ImageQRShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA506302865DB670098864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA5063D2865DB6A0098864F /* Preview Assets.xcassets in Resources */,
+				5FA5063A2865DB6A0098864F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA5062E2865DB670098864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA506362865DB680098864F /* ImageQRShareApp.swift in Sources */,
+				5FA506442865DC330098864F /* APIClient.swift in Sources */,
+				5F1A1EFE2869B34E0074E146 /* UIDeviceOrientation+AVCaptureVideoOrientation.swift in Sources */,
+				5F1A1EFC286991F10074E146 /* CameraViewViewModel.swift in Sources */,
+				5F1A1EF82865E6380074E146 /* CameraView.swift in Sources */,
+				5F1A1EFA286991B50074E146 /* CaptureVideoPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FA5063E2865DB6A0098864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FA5063F2865DB6A0098864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA506412865DB6A0098864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageQRShare/Preview Content\"";
+				DEVELOPMENT_TEAM = AT6WLZZ672;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photo of you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ImageQRShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA506422865DB6A0098864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageQRShare/Preview Content\"";
+				DEVELOPMENT_TEAM = AT6WLZZ672;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photo of you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ImageQRShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA5062D2865DB670098864F /* Build configuration list for PBXProject "ImageQRShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA5063E2865DB6A0098864F /* Debug */,
+				5FA5063F2865DB6A0098864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA506402865DB6A0098864F /* Build configuration list for PBXNativeTarget "ImageQRShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA506412865DB6A0098864F /* Debug */,
+				5FA506422865DB6A0098864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA5062A2865DB670098864F /* Project object */;
+}
